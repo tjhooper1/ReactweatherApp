@@ -8,14 +8,17 @@
     width: 100%;
 
     .main-container{
+        display: -webkit-flex;
         display: flex;
+        -webkit-flex-direction: column;
         flex-direction: column;
         background-color: #b4ffff;
-        height: 50vh;
-        width: 50%;
+        height: 75%;
+        width: 75%;
         border: 1px solid #64dbef;
         box-shadow: 5px 10px #d7dada;
         border-radius: 10px;
+        justify-content: center;
     }
 
     .heading{
@@ -39,6 +42,9 @@
 
     .weather-temperature{
         font-weight: 800;
+    }
+    .form{
+        display: flex;
     }
 }
 
